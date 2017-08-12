@@ -18,6 +18,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 gem 'simple_form'
 
+ruby "2.3.0"
+
 
 group :development, :test do
   gem 'byebug', platform: :mri
