@@ -5,10 +5,8 @@ $(document).on('scroll', function() {
     $('section').css('background-color', '#fff0f0')
   } else if (pixelsFromTop < 1100) {
     $('section').css('background-color', '#F9FFD0')
-  } else if (pixelsFromTop < 1300) {
-    $('section').css('background-color', '#F1FFD0') 
-  } else if (pixelsFromTop < 3000) {
-    $('section').css('background-color', '#fff0f0')
+  } else if (pixelsFromTop < 1600) {
+    $('section').css('background-color', '#F6FFFF') 
   } else {
     $('section').css('background-color', '#cdccc7')
   }
