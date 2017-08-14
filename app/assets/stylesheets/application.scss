@@ -11,28 +11,54 @@
  * It is generally better to create a new file per style scope.
  *
  */
+ /*
+ *= require jquery-ui
+ */
  @import "bootstrap";
 
  body {
-  padding-top: 50px;
-  line-height: 1.5;
-  background-color: #d9dfe4;
+  background-color: #fff0f0;
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
 
-}
+.starter-template {
+  padding: 85px 15px;
+  text-align: center;
 
 h1 {
   font-family: 'Eczar', serif;
-  border-bottom: 2px solid black;
   }
 
 h2 {
   font-family: 'Work Sans', sans-serif;
+  }
 
 }
+
+
+section {
+  padding: 100px 0 100px 0;
+  height:  100vh;
+  background-size: cover;
+  background-attachment:  fixed;
+  transition:  background-color 1s ease;
+}
+
+.day {
+  padding: 85px 15px;
+  text-align: center;
+}
+
+.people {
+  padding: 105px 15px;
+  text-align: center;
+}
+
+.monthly {
+  padding: 200px 15px;
+  text-align: center;
+}
+
+
 
 footer {
   position: absolute;
@@ -42,3 +68,18 @@ footer {
   height: 60px;
 }
 
+.progress {
+  position: fixed;
+  top:  0;
+  left: 0;
+  width: 100%;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #7fdbff;
+}

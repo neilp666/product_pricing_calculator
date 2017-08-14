@@ -1,28 +1,41 @@
-<div class="container">
-  <div class="starter-template">
+
+<div class="progress">
+   <div class="bar"></div>
+</div>
+
+<section class="day">
+
     <h2><%= "To make #{number_to_currency @product.revenue}" %></h2>
     <p class="lead"><%= "You need to make #{number_to_currency @product.monthly_amount} a month" %><br/>
     <%= "You need to make #{number_to_currency @product.daily_amount} a day" %></p>
+</section>
+
+
+<section class="people"> 
 
     <h2>Or if you create and sell a product</h2>
-    <table>
-    <p class="lead"><%= "To make #{@product.revenue } 10,000 people to buy a
-    #{number_to_currency @product.create_and_sell_product_10000} product" %><br/>
+        <table>
+        <p class="lead"><%= "To make #{@product.revenue } 10,000 people to buy a
+        #{number_to_currency @product.create_and_sell_product_10000} product" %><br/>
 
-    <%= "To make #{@product.revenue } 5,000 people to buy a
-    #{number_to_currency @product.create_and_sell_product_5000} product" %><br/>
+        <%= "To make #{@product.revenue } 5,000 people to buy a
+        #{number_to_currency @product.create_and_sell_product_5000} product" %><br/>
 
-    <%= "To make #{@product.revenue } 2,000 people to buy a
-    #{number_to_currency @product.create_and_sell_product_2000} product" %><br/>
+        <%= "To make #{@product.revenue } 2,000 people to buy a
+        #{number_to_currency @product.create_and_sell_product_2000} product" %><br/>
 
-    <%= "To make #{@product.revenue } 1,000 people to buy a
- #{number_to_currency @product.create_and_sell_product_1000} product" %><br/>
+        <%= "To make #{@product.revenue } 1,000 people to buy a
+     #{number_to_currency @product.create_and_sell_product_1000} product" %><br/>
 
-    <%= "To make #{@product.revenue } 100 people to buy a
- #{number_to_currency @product.create_and_sell_product_100} product" %></p>
-    </table>
+        <%= "To make #{@product.revenue } 100 people to buy a
+     #{number_to_currency @product.create_and_sell_product_100} product" %></p>
+        </table>
+</section>
+
+
+<section class="monthly">
+
     <h2><%= "If you setup a monthly subscription" %></h2>
-
     <p class="lead"><%= "Get 5,000 people to pay #{number_to_currency @product.monthly_subscription_5000} per month for #{@product.months} months" %><br/>
 
     <%= "Get 2,000 people to pay #{number_to_currency @product.monthly_subscription_2000 }  per month for #{@product.months} months" %><br/>
@@ -34,5 +47,5 @@
     <%= "Get 300 people to pay #{number_to_currency @product.monthly_subscription_300 }  per month for #{@product.months} months" %></p>
 
     <%= link_to 'Try again', root_path , class: "btn btn-danger" %>
+ </section>
 
-</div>

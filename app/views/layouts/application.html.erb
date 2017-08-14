@@ -7,17 +7,16 @@
     <meta name="description" content="How much money do you want to make? check out The Product Pricing Calculator today">
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    
+    <%= javascript_include_tag 'application' %>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
     <script src="https://use.fontawesome.com/f40685afe6.js"></script>
-
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet"> 
   </head>
 
   <body>
     <%= yield %>
   </body>
+  <script src="scroll.js"></script>
 </html>
