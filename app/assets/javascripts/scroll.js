@@ -1,9 +1,9 @@
 $(document).on('scroll', function() {
   var pixelsFromTop = $(document).scrollTop()
 
-  if (pixelsFromTop < 200) {
+  if (pixelsFromTop < 600) {
     $('section').css('background-color', '#fff0f0')
-  } else if (pixelsFromTop < 1100) {
+  } else if (pixelsFromTop < 1200) {
     $('section').css('background-color', '#F9FFD0')
   } else if (pixelsFromTop < 1600) {
     $('section').css('background-color', '#F6FFFF') 
