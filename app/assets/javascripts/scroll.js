@@ -21,9 +21,3 @@ $(document).on('scroll', function() {
 })
 
 
-
-
-
-
-
-
