@@ -64,11 +64,21 @@ h2 {
 
 
 section {
-  padding: 100px 0 100px 0;
+  font-family: 'Eczar', serif;
+  font-weight: 300;
   height:  100vh;
   background-size: cover;
   background-attachment:  fixed;
   transition:  background-color 1s ease;
+
+  h1 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 22px;
+    font-family: 'Work Sans', sans-serif;
+  }
 }
 
 .day {

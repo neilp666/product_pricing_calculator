@@ -19,5 +19,3 @@ $(document).on('scroll', function() {
   $('.bar').css('width', percentage + '%')
 
 })
-
-
