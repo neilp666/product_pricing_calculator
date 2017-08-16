@@ -4,7 +4,7 @@ $(document).on('scroll', function() {
   if (pixelsFromTop < 600) {
     $('section').css('background-color', '#fff0f0')
   } else if (pixelsFromTop < 1200) {
-    $('section').css('background-color', '#F9FFD0')
+    $('section').css('background-color', '#F8D800')
   } else if (pixelsFromTop < 1600) {
     $('section').css('background-color', '#F6FFFF') 
   } else {
